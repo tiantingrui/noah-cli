@@ -1,0 +1,31 @@
+{
+  "name": "noah-cli",
+  "version": "1.0.0",
+  "description": "提供对vue，vue-ts，react，react-ts快速创建项目工程的脚手架，集成eslint，prettier，stylelint, husky，commitlint 等规范，也提供常见的目录结构划分",
+  "main": "index.js",
+  "bin": {
+    "noah-cli": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tiantingrui/noah-cli.git"
+  },
+  "keywords": [
+    "cli",
+    "vite"
+  ],
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "author": "tiantingrui",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tiantingrui/noah-cli/issues"
+  },
+  "homepage": "https://github.com/tiantingrui/noah-cli#readme",
+  "dependencies": {
+    "kolorist": "^1.5.1",
+    "minimist": "^1.2.6",
+    "prompts": "^2.4.2"
+  }
+}
