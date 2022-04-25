@@ -1,3 +1,16 @@
 {
-  "recommendations": ["johnsoncodehk.volar"]
+  "recommendations": ["johnsoncodehk.volar"],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "vue",
+    "typescript",
+    "typescriptreact",
+    "json"
+  ],
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode" // 默认格式化工具选择prettier
 }
